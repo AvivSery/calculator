@@ -1,0 +1,156 @@
+body{
+    background-color: #E8EEF3;
+
+}
+
+#calc{
+
+    width: 650px;
+    height: 750px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 50px auto auto 600px;
+    background-color: #365671;
+}
+#calc-area{
+
+    width: 580px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+    background-color: #BDD5EA;
+    font-size: 70px;
+    overflow: hidden;
+    text-align: right;
+}
+#buttons-area{
+
+    width: 600px;
+    height: 50px;
+    margin: 20px 20px 20px 20px;
+    
+
+}
+
+  button{
+     width: 130px;
+     height: 100px; 
+     margin:  7.5px;
+     font-size: 30px;
+     cursor: pointer;
+     color: white;
+     background-color: #041E35;
+
+}
+#eqal{
+    width: 580px;
+    height: 100px;
+     margin:  7.5px;
+     font-size: 30px;
+     cursor: pointer;
+     color: white;
+     background-color: #041E35;
+     margin: 20px 20px 20px 5px;
+}
+
+@media screen and (max-width: 1200px){
+    #calc{
+
+    width: 600px;
+    margin-left: 150px;
+    display: inline-block;
+    }
+
+    button{
+
+        width: 20%;
+        /* height: 90%; */
+        font-size: 20px;
+        margin:  4.5px;
+        /* margin-left: 40px; */
+        }
+        
+    #calc-area{
+        width: 520px;
+        font-size: 50px;
+        
+    }
+    #eqal{
+        width: 86%;
+        
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    #calc{
+    width: 400px;
+    margin-left: 100px;
+    height: 650px;
+    
+    }
+
+    button{
+
+        width: 20%;
+        height: 80%;
+        
+        font-size: 20px;
+        margin:  2.5px;
+        /* margin-left: 40px; */
+        }
+        
+    #calc-area{
+        width: 350px;
+        font-size: 50px;
+        
+    }
+    #buttons-area{
+
+        width: 400px;
+        height: 100px;
+
+    }
+    #eqal{
+
+        width: 86%;  
+    }
+}
+
+@media screen and (max-height: 780px){
+
+    #calc{
+    
+
+    width: 400px;
+    /* margin-left: 100px; */
+    height: 650px;
+    
+    }
+
+    button{
+
+        width: 20%;
+        height: 80%;
+        
+        font-size: 20px;
+        margin:  2.5px;
+        /* margin-left: 40px; */
+        }
+        
+    #calc-area{
+        width: 350px;
+        font-size: 50px;
+        
+    }
+    #buttons-area{
+
+        width: 400px;
+        height: 100px;
+
+    }
+    #eqal{
+
+        width: 86%;  
+    }
+}
